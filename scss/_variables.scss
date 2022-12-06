@@ -1,0 +1,29 @@
+/////////////////////////////
+/// SASS VARIABLES
+// Place SASS variables here
+
+/////////////////////////////
+/// CSS VARIABLES
+/// Place CSS Variables here
+:root {
+   // Style-Colors
+   --primary-violet: hsl(257, 40%, 49%);
+   --primary-soft-magenta: hsl(300, 69%, 71%);
+   // Style Types
+   --font-primary: "Poppins";
+   --font-secondary: "Open Sans";
+   // Style Widths::
+   --max-desktop-width: 144rem;
+   --max-mobile-width: 37.5rem;
+   --max-desktop-height: 80rem;
+
+   // Colors for Dark Theme
+   --surface-light: var(--gray-3-hsl); // var(--gray-3);
+   --text-light: var(--gray-10-hsl); // var(--gray-10);
+   --brand-light: var(--purple-7-hsl); // var(--purple-7);
+
+   // Colors for Light Theme
+   --surface-dark: var(--gray-10-hsl); // var(--gray-10);
+   --text-dark: var(--gray-3-hsl); // var(--gray-3);
+   --brand-dark: var(--purple-7-hsl); // var(--orange-5);
+}

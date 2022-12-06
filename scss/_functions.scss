@@ -1,0 +1,10 @@
+@use "maps";
+@use "sass:map";
+
+@function weight($value) {
+   @return map.get(maps.$font-weights, $value);
+}
+
+@function screen($value) {
+   @return map.get(maps.$screen-sizes, $value);
+} ;
